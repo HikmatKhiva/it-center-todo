@@ -3,7 +3,6 @@ const tg =
 
 import PropTypes from "prop-types";
 const StudentCard = ({ student }) => {
-  console.log(student);
   return (
     <div className="shadow bg-gray-300 p-10 relative rounded w-[calc(33%_-_20px)] 2xl:w-[calc(25%_-_20px)]">
       <span className="absolute top-0 right-0 text-xs bg-green-500 text-white p-2 rounded hover:bg-green-600 transition-all duration-300 cursor-pointer">
