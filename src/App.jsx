@@ -23,12 +23,11 @@ function App() {
               <StudentCard key={index} student={student} test={index} />
             ))
           ) : (
-            <h2 className="text-center text-2xl">Studentlar mavjud emas</h2>
+            <h2 className="text-center text-2xl w-full">Studentlar mavjud emas</h2>
           )}
         </div>
       </div>
     </main>
-    <h1></h1>
   );
 }
 export default App;
